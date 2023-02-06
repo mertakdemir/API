@@ -7,9 +7,9 @@ public class States {
 
     private int id;
     private String name;
-    private String tpcountry;
+    private Object tpcountry;
 
-    public States(int id, String name, String tpcountry) {
+    public States(int id, String name, Object tpcountry) {
         this.id = id;
         this.name = name;
         this.tpcountry = tpcountry;
@@ -34,7 +34,7 @@ public class States {
         this.name = name;
     }
 
-    public String getTpcountry() {
+    public Object getTpcountry() {
         return tpcountry;
     }
 
